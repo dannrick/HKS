@@ -1,3 +1,8 @@
+@media screen and (max-width: 685px) {
+    .container{
+        display: block;
+    }
+  }
 header {
     color: #03a9eb;
     font-size: x-large;
