@@ -1,0 +1,169 @@
+header {
+    color: #03a9eb;
+    font-size: x-large;
+    height: 50px;
+    text-align: center;
+    justify-content: end;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    height: 50px;
+    background-color: #03a9eb;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.menu li {
+    margin: 0 10px;
+    margin-top: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #727272;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0083ee;
+    color: #fff;
+    transform: scale(1.5);
+    transition: all 0.8s;
+}
+
+.menu a:not(:hover) {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #727272;
+    transform: scale(1);
+    transition: all 0.8s;
+}
+
+h2 {
+    color: #03a9eb;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    color: #727272;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario {
+    border-radius: 20px;
+    background-color: #03a9eb;
+    margin: 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h3 {
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.formulario .nome,
+.formulario .email,
+.formulario .telefone,
+.formulario .endereco,
+.formulario .data,
+.formulario .observacoes,
+.formulario .idade,
+.formulario .tipoEvt,
+.formulario .tipoServico {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    height: 80px;
+}
+
+.formulario img{
+    width: 1128px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.formulario .tipoServico {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.formulario .orcamento {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.formulario .orcamento a {
+    font-size: x-large;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 70px;
+}
+
+.formulario .orcamento a:hover {
+    border-color: #ffffff;
+    background-color: #006fb9;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: all 0.8s;
+    transform-origin: 50% 0%;
+}
+
+.formulario .orcamento a:not(:hover) {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #979797;
+    transform: scale(1);
+    transition: all 0.8s;
+}
+
+.contato h2 {
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    color: #03a9eb;
+}
+
+.contato p {
+    display: flex;
+    align-items: center;
+    color: #5f5f5f;
+    justify-content: center;
+    font-size: large;
+}
+
+.contato .redesSociais {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
